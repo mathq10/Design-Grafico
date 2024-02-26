@@ -1,0 +1,27 @@
+import turtle as tr
+
+tr.pensize(10)
+tr.color('blue')
+tr.bgcolor('white')
+tr.speed(10)
+
+tr.circle(100)
+tr.color('white')
+tr.forward(100)
+tr.pendown()
+tr.color('yellow')
+tr.circle(-100)
+tr.color('white')
+tr.forward(100)
+tr.color('black')
+tr.circle(100)
+tr.color('white')
+tr.forward(100)
+tr.color('green')
+tr.circle(-100)
+tr.color('white')
+tr.forward(100)
+tr.color('red')
+tr.circle(100)
+
+
